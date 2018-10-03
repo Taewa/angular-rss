@@ -1,0 +1,40 @@
+@import "theme/var";
+
+.app-cover {
+    max-width: 1000px;
+    margin: 40px 20px;
+
+    @media (min-width: $bpMd) {
+        margin: 20px auto;
+    }
+}
+
+.article-area {
+    display: inline-grid;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+    margin-top: 15px;
+
+    @media (min-width: $bpSm) {
+        grid-template-columns: auto auto;
+    }
+
+    @media (min-width: $bpMd) {
+        grid-template-columns: auto auto auto;
+    }
+
+    article-list {
+        display: flex;
+        margin-bottom: 10px;
+        animation: zoomIn 0.35s ease-out;
+    }
+}
+
+.err-msg-area {
+    background: #333;
+    color: #eee;
+    padding: 15px;
+    margin-top: 16px;
+    border-radius: 10px;
+    animation: fadeIn 0.5s;
+}

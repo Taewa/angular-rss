@@ -1,0 +1,20 @@
+<a
+        class="article-cover"
+        [href]="data.link"
+        [title]="data.title"
+        target="_blank">
+
+    <div class="thumb-area">
+        <img [src]="data.thumbnail" *ngIf="data.thumbnail" class="thumb">
+    </div>
+
+
+    <div class="info-area">
+        <p class="title font-gotham-black">{{data.title}}</p>
+        <p class="author font-gotham-book">By {{data.author}}</p>
+        <span class="date">{{data.pubDate.split(' ')[0]}}</span>
+    </div>
+
+
+
+</a>

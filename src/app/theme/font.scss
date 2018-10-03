@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Gotham
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('/assets/fonts/Gotham-Black.woff') format('woff'), url('/assets/fonts/Gotham-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('/assets/fonts/Gotham-Medium.woff') format('woff'), url('/assets/fonts/Gotham-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: local('☺'), url('/assets/fonts/Gotham-Light.woff') format('woff'), url('/assets/fonts/Gotham-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: local('☺'), url('/assets/fonts/Gotham-Book.woff') format('woff'), url('/assets/fonts/Gotham-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+
+.font-gotham-black {
+    font-family: 'Gotham-Black';
+}
+
+.font-gotham-midium {
+    font-family: 'Gotham-Medium';
+}
+
+.font-gotham-light {
+    font-family: 'Gotham-Light';
+}
+
+.font-gotham-book {
+    font-family: 'Gotham-Book';
+}

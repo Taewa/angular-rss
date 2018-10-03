@@ -1,0 +1,57 @@
+@import "../../theme/var";
+
+.search-header-area{
+    font-weight: 300;
+    line-height: 140%;
+    margin-bottom: 15px;
+
+    @media (min-width: $bpMd) {
+        font-size: 31px;
+    }
+}
+
+.search-input-area {
+    position: relative;
+}
+
+
+
+.search-input{
+    display: flex;
+    align-items: center;
+    padding-bottom: 6px;
+}
+
+.search {
+    flex: 1;
+    width: 100%;
+    padding: 12px 70px 12px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    overflow: hidden;
+
+    @media (min-width: $bpMd) {
+        font-size: 40px;
+    }
+
+    &::placeholder {
+        color: #cfcfd0;
+        font-weight: bold;
+        font-size: 20px;
+
+        @media (min-width: $bpMd) {
+            font-size: 40px;
+        }
+     }
+}
+
+.btn-search {
+    position: absolute;
+    right: 10px;
+    background: gray;
+    color: #fff;
+    padding: 10px;
+    animation: bounce 1.0s ease;
+}
